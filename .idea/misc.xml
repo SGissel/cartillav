@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/drawable-v24/btn_fondo_color.xml" value="0.1875" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/drawable-v24/delete.xml" value="0.191" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/drawable/back.xml" value="0.166" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/drawable/redondo.xml" value="0.166" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/drawable/reg.xml" value="0.1" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_base.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_editar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_editar_vacuna.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_esquema_paciente.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_huelladigital.xml" value="0.22" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_item.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_main_paciente.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_man.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_menu.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_menu2.xml" value="0.22" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_normal.xml" value="0.1" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_registro_vacunas.xml" value="0.18" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_swipe_menu.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_swipe_selection.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_visualizar_vacuna.xml" value="0.22" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/activity_visualizar_vacuna_paciente.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/acttivity_main_paciente.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/app_bar_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/barra.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/barra_editar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/barra_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/barra_pa.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/barra_paciente.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/barraxd.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/card_paciente.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/content_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/custom_toolbar.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/editar_vacuna.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/fragment_create.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/fragment_edit.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/fragment_editar.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/fragment_slideshow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/header_navigation_drawer.xml" value="0.2384428223844282" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/item.xml" value="0.2384428223844282" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/item_card.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/layout_navigation_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/nav_header_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/slide_menu.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/vacuna_single.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/layout/view_vacunas.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/menu/activity_menu2_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/menu/menu2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Home/cartillav/app/src/main/res/menu/navigation_menu2.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

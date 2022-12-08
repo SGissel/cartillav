@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".editar_vacuna">
+    <include layout="@layout/barra_pa" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Actualización del registro"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numerotxt"
+        android:layout_width="83dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="144dp"
+        android:text="NSS"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/numeroEditar"
+        android:layout_width="336dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="164dp"
+        android:ems="15"
+        android:hint="NSS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/nombreEditar"
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="236dp"
+        android:ems="15"
+        android:hint="Nombre Completo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombreCtxt"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="216dp"
+        android:text="Nombre completo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/vacunaEditar"
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="320dp"
+        android:ems="15"
+        android:hint="Vacuna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vacunatxt"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="296dp"
+        android:text="Vacuna"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/idvEditar"
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="416dp"
+        android:ems="15"
+        android:hint="ID de la vacuna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idvtxt"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="392dp"
+        android:text="ID de la vacuna"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fechaAtxt"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="488dp"
+        android:text="Fecha de aplicación"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fechaEditar"
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="508dp"
+        android:ems="15"
+        android:hint="AAAA-MM-DD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/proximaCtxt"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="584dp"
+        android:text="Proxima cita"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/proximaCEditar"
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="604dp"
+        android:ems="15"
+        android:hint="AAAA-MM-DD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Actualizar"
+        android:layout_width="189dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_fondo_color"
+        android:elevation="5dp"
+        android:text="Actualizar"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929"
+        app:rippleColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/DeleteReg"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="780dp"
+        android:text="Eliminar registro"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

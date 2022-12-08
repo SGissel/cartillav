@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "889571359371",
+    "project_id": "cartillav-49786",
+    "storage_bucket": "cartillav-49786.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889571359371:android:2a3b4371f362a0d292b28e",
+        "android_client_info": {
+          "package_name": "com.example.cartillav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889571359371-th3j0fethsi9r0lhch7fduieev4q434v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo8hcgZLwSPVmGKPzFphjB8SBW5i5g3R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889571359371-th3j0fethsi9r0lhch7fduieev4q434v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

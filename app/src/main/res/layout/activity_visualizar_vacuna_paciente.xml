@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".visualizar_vacuna_paciente">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/barra_pa" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thumbnail"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Esquema de vacunación"
+            android:textSize="30sp"
+            />
+        <TableRow>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listaClientesPa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

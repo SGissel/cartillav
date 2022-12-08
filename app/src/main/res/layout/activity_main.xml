@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/barra" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="479dp"
+        android:layout_marginTop="210dp"
+        android:background="#63FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="160dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="end"
+            android:text="Nombre Completo:" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/input"
+            android:drawablePadding="10dp"
+            android:hint="Nombre Completo"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#393535"
+            android:textColorHint="#393535" />
+
+        <TextView
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="160dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="end"
+            android:text="Cedula profesional:" />
+
+        <EditText
+            android:id="@+id/clave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input"
+            android:drawablePadding="10dp"
+            android:hint="Cedula profesional"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#393535"
+            android:textColorHint="#393535" />
+
+
+        <TextView
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="95dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="end"
+            android:hint="*Contraseña validada con números"
+            android:textColor="#fff"
+            android:textColorHint="@color/rojo" />
+
+        <Button
+            android:id="@+id/inicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_fondo_color"
+            android:elevation="5dp"
+            android:text="inciar sesión"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            app:rippleColor="#FFFFFF" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="28dp"
+        android:text="Inicio de Sesión Médico"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#393535" />
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="167dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:foregroundGravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imss" />
+
+
+</RelativeLayout>

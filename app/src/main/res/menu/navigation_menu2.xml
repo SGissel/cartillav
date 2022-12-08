@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/registrar"
+        android:icon="@drawable/registrar"
+        android:title="Registrar vacuna" />
+    <item
+        android:id="@+id/visualizar"
+        android:icon="@drawable/visualizar"
+        android:title="Visualizar registros" />
+    <item
+        android:id="@+id/cerrar"
+        android:icon="@drawable/cerrarses"
+        android:title="Visualizar registros" />
+</menu>
